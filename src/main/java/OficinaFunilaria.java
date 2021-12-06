@@ -14,7 +14,7 @@ public class OficinaFunilaria extends Oficina {
             TimeUnit.MILLISECONDS.sleep(tempoUsado);
         } catch (InterruptedException exp) {
         }
-        System.out.printf("(Time taken: %d millis), Done.\n", tempoUsado);
+        System.out.printf("(Tempo gasto: %d milissegundos), Feito.\n", tempoUsado);
     }
 
 }
